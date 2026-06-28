@@ -318,8 +318,7 @@ export default function Index() {
                 key={l.title}
                 className="group grid md:grid-cols-12 gap-4 md:gap-6 items-center py-7 transition-colors hover:bg-background/5 px-2 md:px-4"
               >
-                <div className="md:col-span-2 font-display text-3xl text-ochre">{l.date}</div>
-                <div className="md:col-span-6">
+                <div className="md:col-span-8">
                   <h3 className="font-serif-ed text-2xl md:text-3xl leading-tight mb-1">
                     {l.title}
                   </h3>
