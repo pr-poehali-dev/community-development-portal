@@ -213,7 +213,7 @@ export default function Index() {
           </p>
           <h1
             className="font-display uppercase leading-[0.92] text-[15vw] md:text-[9vw] mb-8 text-balance animate-fade-up"
-            style={{ animationDelay: '0.1s', fontWeight: 600, color: '#1b1b1b' }}
+            style={{ animationDelay: '0.1s', fontWeight: 600, color: '#ffffff' }}
           >
             Учимся
             <br />
@@ -224,7 +224,7 @@ export default function Index() {
           </h1>
           <p
             className="font-serif-ed text-2xl md:text-3xl max-w-2xl leading-snug mb-10 animate-fade-up"
-            style={{ animationDelay: '0.2s', color: '#1b1b1b' }}
+            style={{ animationDelay: '0.2s', color: '#ffffff' }}
           >
             Лекции о кино, истории государств, искусстве и человеке — в самых
             необычных пространствах Петербурга.
