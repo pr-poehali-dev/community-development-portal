@@ -211,38 +211,49 @@ export default function Index() {
           <p className="font-display text-ochre uppercase tracking-[0.4em] text-sm mb-6 animate-fade-up">
             Свободное комьюнити · Санкт-Петербург
           </p>
-          <h1
-            className="font-display uppercase leading-[0.92] text-[15vw] md:text-[9vw] mb-8 text-balance animate-fade-up"
-            style={{ animationDelay: '0.1s', fontWeight: 600, color: '#ffffff' }}
-          >
-            Учимся
-            <br />
-            видеть{' '}
-            <span className="font-serif-ed italic lowercase text-ochre normal-case" style={{ fontWeight: 400 }}>
-              всё
-            </span>
-          </h1>
-          <p
-            className="font-serif-ed text-2xl md:text-3xl max-w-2xl leading-snug mb-10 animate-fade-up"
-            style={{ animationDelay: '0.2s', color: '#ffffff' }}
-          >
-            Лекции о кино, истории государств, искусстве и человеке — в самых
-            необычных пространствах Петербурга.
-          </p>
-          <div className="flex flex-wrap gap-4 animate-fade-up" style={{ animationDelay: '0.3s' }}>
-            <Button
-              onClick={() => scrollTo('lectures')}
-              className="bg-ochre hover:bg-ochre/90 text-ink font-display uppercase tracking-widest rounded-none px-8 h-12"
-            >
-              Ближайшие лекции
-            </Button>
-            <Button
-              onClick={() => scrollTo('mission')}
-              variant="outline"
-              className="border-background/50 text-background bg-transparent hover:bg-background hover:text-ink font-display uppercase tracking-widest rounded-none px-8 h-12"
-            >
-              О комьюнити
-            </Button>
+          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8">
+            <div>
+              <h1
+                className="font-display uppercase leading-[0.92] text-[15vw] md:text-[9vw] mb-8 text-balance animate-fade-up"
+                style={{ animationDelay: '0.1s', fontWeight: 600, color: '#ffffff' }}
+              >
+                Учимся
+                <br />
+                видеть{' '}
+                <span className="font-serif-ed italic lowercase text-ochre normal-case" style={{ fontWeight: 400 }}>
+                  всё
+                </span>
+              </h1>
+              <p
+                className="font-serif-ed text-2xl md:text-3xl max-w-2xl leading-snug mb-10 animate-fade-up"
+                style={{ animationDelay: '0.2s', color: '#ffffff' }}
+              >
+                Лекции о кино, истории государств, искусстве и человеке — в самых
+                необычных пространствах Петербурга.
+              </p>
+              <div className="flex flex-wrap gap-4 animate-fade-up" style={{ animationDelay: '0.3s' }}>
+                <Button
+                  onClick={() => scrollTo('lectures')}
+                  className="bg-ochre hover:bg-ochre/90 text-ink font-display uppercase tracking-widest rounded-none px-8 h-12"
+                >
+                  Ближайшие лекции
+                </Button>
+                <Button
+                  onClick={() => scrollTo('mission')}
+                  variant="outline"
+                  className="border-background/50 text-background bg-transparent hover:bg-background hover:text-ink font-display uppercase tracking-widest rounded-none px-8 h-12"
+                >
+                  О комьюнити
+                </Button>
+              </div>
+            </div>
+            <div className="animate-fade-up flex-shrink-0" style={{ animationDelay: '0.35s' }}>
+              <img
+                src="https://cdn.poehali.dev/projects/d6d9ffc9-0672-41f4-a545-14576978093a/bucket/cc2b0e6c-1e8b-487d-b992-149392c8c22d.png"
+                alt="смотрю в книгу — не вижу фигу"
+                className="w-64 md:w-80 opacity-90"
+              />
+            </div>
           </div>
         </div>
       </section>
