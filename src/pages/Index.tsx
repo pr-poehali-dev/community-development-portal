@@ -398,7 +398,7 @@ export default function Index() {
             ))}
             {Array.from({ length: 31 }).map((_, i) => {
               const day = i + 1;
-              const isEvent = [12, 19, 26].includes(day);
+              const isEvent = [12, 26].includes(day);
               return (
                 <div
                   key={i}
