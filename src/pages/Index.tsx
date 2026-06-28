@@ -166,7 +166,7 @@ export default function Index() {
             onClick={() => scrollTo('top')}
             className="font-display text-xl tracking-[0.2em] text-white uppercase"
           >
-            Свобода<span className="text-ochre">·</span>Мысли
+Лик<span className="text-ochre">·</span>Без
           </button>
           <nav className="hidden md:flex items-center gap-8">
             {NAV.map((n) => (
@@ -537,7 +537,7 @@ export default function Index() {
             </div>
           </div>
           <div className="border-t border-background/15 pt-8 flex flex-wrap items-center justify-between gap-4 text-background/50 text-sm">
-            <span className="font-display uppercase tracking-[0.2em]">Свобода · Мысли</span>
+            <span className="font-display uppercase tracking-[0.2em]">Ликбез</span>
             <span>Санкт-Петербург · 2026</span>
           </div>
         </div>
