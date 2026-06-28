@@ -206,7 +206,7 @@ export default function Index() {
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(${HERO_IMG})` }}
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/40 to-ink/30" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0d2233] via-[#0d2233]/60 to-[#0d2233]/40" />
         <div className="container relative z-10 pb-20 pt-32">
           <p className="font-display text-ochre uppercase tracking-[0.4em] text-sm mb-6 animate-fade-up">
             Свободное комьюнити · Санкт-Петербург
