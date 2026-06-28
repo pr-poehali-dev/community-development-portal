@@ -508,7 +508,7 @@ export default function Index() {
                 <Input
                   type="email"
                   placeholder="Ваша почта"
-                  className="bg-transparent border-background/30 text-background placeholder:text-background/40 rounded-none h-12"
+                  className="bg-transparent border-background/30 text-background placeholder:text-background/40 rounded-none h-10 text-sm"
                 />
                 <Button className="bg-ochre hover:bg-ochre/90 text-ink font-display uppercase tracking-widest rounded-none h-12 px-8">
                   Подписаться
@@ -517,7 +517,6 @@ export default function Index() {
               <div className="flex flex-wrap gap-6">
                 {[
                   { icon: 'Send', label: 'Telegram' },
-                  { icon: 'Instagram', label: 'Instagram' },
                   { icon: 'Mail', label: 'Почта' },
                 ].map((s) => (
                   <a
