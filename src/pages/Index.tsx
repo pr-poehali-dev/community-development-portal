@@ -481,17 +481,25 @@ export default function Index() {
         </div>
         <div className="grid sm:grid-cols-3 gap-6">
           {[
-            { name: 'Тоут «Думай шире»', price: '1 200 ₽', icon: 'ShoppingBag' },
-            { name: 'Худи комьюнити', price: '3 900 ₽', icon: 'Shirt' },
-            { name: 'Блокнот лектора', price: '650 ₽', icon: 'Notebook' },
+            { name: 'Тоут «Думай шире»', price: '1 200 ₽', icon: 'ShoppingBag', img: null },
+            { name: 'Худи комьюнити', price: '3 900 ₽', icon: 'Shirt', img: 'https://cdn.poehali.dev/projects/d6d9ffc9-0672-41f4-a545-14576978093a/bucket/2a775a32-b4f2-4559-8cd0-3e959ad5b17c.png' },
+            { name: 'Блокнот лектора', price: '650 ₽', icon: 'Notebook', img: null },
           ].map((m) => (
             <div key={m.name} className="group">
               <div className="aspect-square bg-secondary flex items-center justify-center mb-4 overflow-hidden grain relative">
-                <Icon
-                  name={m.icon}
-                  size={80}
-                  className="text-ink/30 transition-transform duration-500 group-hover:scale-110 relative z-10"
-                />
+                {m.img ? (
+                  <img
+                    src={m.img}
+                    alt={m.name}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                ) : (
+                  <Icon
+                    name={m.icon}
+                    size={80}
+                    className="text-ink/30 transition-transform duration-500 group-hover:scale-110 relative z-10"
+                  />
+                )}
               </div>
               <div className="flex items-center justify-between">
                 <h3 className="font-display uppercase tracking-wide text-lg">{m.name}</h3>
