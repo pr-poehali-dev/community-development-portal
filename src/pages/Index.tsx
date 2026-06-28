@@ -206,7 +206,7 @@ export default function Index() {
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(${HERO_IMG})` }}
         />
-        <div className="absolute inset-0 from-[#0d2233] via-[#0d2233]/60 to-[#0d2233]/40 bg-[#00000082]" />
+        <div className="absolute inset-0 from-[#0d2233] via-[#0d2233]/60 to-[#0d2233]/40 bg-[#000000bf]" />
         <div className="container relative z-10 pb-20 pt-32">
           <p className="font-display text-ochre uppercase tracking-[0.4em] text-sm mb-6 animate-fade-up">
             Свободное комьюнити · Санкт-Петербург
@@ -417,13 +417,13 @@ export default function Index() {
       </section>
 
       {/* SPEAKER */}
-      <section id="speaker" className="bg-accent text-accent-foreground py-24 md:py-32 grain relative">
+      <section id="speaker" className="text-accent-foreground py-24 md:py-32 grain relative bg-[#7f402dab]">
         <div className="container relative z-10 grid md:grid-cols-12 gap-10 items-center">
           <div className="md:col-span-7">
             <p className="font-display uppercase tracking-[0.3em] text-sm mb-4 opacity-80">
               Стать лектором
             </p>
-            <h2 className="font-display uppercase text-3xl md:text-5xl leading-none mb-6 text-balance">
+            <h2 className="font-display uppercase md:text-5xl leading-none mb-6 text-balance text-5xl">
               У вас есть тема,
               <br />о которой хочется
               <br />рассказать миру?
