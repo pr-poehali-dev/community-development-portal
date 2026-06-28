@@ -383,8 +383,8 @@ export default function Index() {
               2026
             </h2>
             <p className="font-serif-ed text-2xl leading-relaxed text-muted-foreground">
-              Каждую неделю — новая тема и новое пространство города. Подпишитесь, чтобы
-              не пропустить.
+              Каждые две недели встречаемся для честного обсуждения, следи за обновлениями!
+              <br />До встречи!
             </p>
           </div>
           <div className="grid grid-cols-7 gap-2">
