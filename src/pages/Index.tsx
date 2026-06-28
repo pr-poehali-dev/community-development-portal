@@ -161,7 +161,7 @@ export default function Index() {
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden selection:bg-accent selection:text-accent-foreground">
       {/* NAV */}
       <header className="fixed top-0 inset-x-0 z-50">
-        <div className="container flex items-center justify-between rounded-full px-[134px] my-0 mx-0 bg-[#f9f6f654] py-0">
+        <div className="container flex items-center justify-between rounded-full px-[134px] mx-0 bg-[#f9f6f654] py-0 my-[1px]">
           <button
             onClick={() => scrollTo('top')}
             className="font-display text-xl tracking-[0.2em] uppercase" style={{ color: '#1b1b1b' }}
@@ -203,10 +203,10 @@ export default function Index() {
       {/* HERO */}
       <section id="top" className="relative min-h-screen flex items-end grain">
         <div
-          className="absolute inset-0 bg-cover bg-center"
+          className="absolute inset-0 bg-cover bg-center px-0 mx-0 py-0 my-0"
           style={{ backgroundImage: `url(${HERO_IMG})` }}
         />
-        <div className="absolute inset-0 from-[#0d2233] via-[#0d2233]/60 to-[#0d2233]/40 bg-[#000000bf]" />
+        <div className="absolute inset-0 from-[#0d2233] via-[#0d2233]/60 to-[#0d2233]/40 bg-[#000000bf] mx-0 py-0 my-0 px-0" />
         <div className="container relative z-10 py-[17px]">
           <p className="font-display text-ochre uppercase tracking-[0.4em] text-sm mb-6 animate-fade-up">
             Свободное комьюнити · Санкт-Петербург
@@ -251,7 +251,7 @@ export default function Index() {
               <img
                 src="https://cdn.poehali.dev/projects/d6d9ffc9-0672-41f4-a545-14576978093a/bucket/8fe93dbf-165e-47b6-a6f9-0669cbde5ceb.png"
                 alt="смотрю в книгу — не вижу фигу"
-                className="w-64 md:w-80 opacity-90 px-[47px] py-[54px] my-[70px] object-contain rounded-0 mx-[13px]"
+                className="w-64 md:w-80 opacity-90 py-[54px] object-contain rounded-0 my-0 px-[50px] mx-0"
               />
             </div>
           </div>
@@ -273,7 +273,7 @@ export default function Index() {
       </div>
 
       {/* MISSION */}
-      <section id="mission" className="container py-24 md:py-32 bg-[#592d2d75]">
+      <section id="mission" className="container md:py-32 bg-[#592d2d75] py-[46px]">
         <div className="grid md:grid-cols-12 gap-10 items-start">
           <div className="md:col-span-4">
             <p className="font-display text-accent uppercase tracking-[0.3em] text-sm mb-4">
@@ -298,7 +298,7 @@ export default function Index() {
                   <h3 className="font-display uppercase tracking-wide text-lg mb-2">
                     {v.title}
                   </h3>
-                  <p className="text-muted-foreground leading-relaxed">{v.text}</p>
+                  <p className="text-muted-foreground leading-relaxed py-0 text-sm">{v.text}</p>
                 </div>
               ))}
             </div>
@@ -307,7 +307,7 @@ export default function Index() {
       </section>
 
       {/* LECTURES */}
-      <section id="lectures" className="bg-ink text-background py-24 md:py-32">
+      <section id="lectures" className="bg-ink text-background md:py-32 py-[55px]">
         <div className="container">
           <div className="flex flex-wrap items-end justify-between gap-6 mb-14">
             <div>
@@ -382,7 +382,7 @@ export default function Index() {
       </section>
 
       {/* CALENDAR */}
-      <section id="calendar" className="container py-24 md:py-32">
+      <section id="calendar" className="container md:py-32 py-[110px]">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <p className="font-display text-accent uppercase tracking-[0.3em] text-sm mb-4">
@@ -434,7 +434,7 @@ export default function Index() {
             <p className="font-display uppercase tracking-[0.3em] text-sm mb-4 opacity-80">
               Стать лектором
             </p>
-            <h2 className="font-display uppercase md:text-5xl leading-none mb-6 text-balance text-5xl">
+            <h2 className="font-display uppercase md:text-5xl leading-none text-balance text-5xl my-[13px] py-2 mx-0.5">
               У вас есть тема,
               <br />о которой хочется
               <br />рассказать миру?
@@ -458,7 +458,7 @@ export default function Index() {
                   key={i}
                   className="flex items-center gap-4 border-b border-accent-foreground/20 pb-5"
                 >
-                  <span className="font-display text-4xl opacity-50">0{i + 1}</span>
+                  <span className="font-display text-4xl opacity-50 text-[#ffffff] font-normal">0{i + 1}</span>
                   <span className="font-serif-ed text-2xl">{t}</span>
                 </div>
               ),
@@ -468,7 +468,7 @@ export default function Index() {
       </section>
 
       {/* MERCH */}
-      <section id="merch" className="container py-24 md:py-32">
+      <section id="merch" className="container md:py-32 py-20">
         <div className="flex flex-wrap items-end justify-between gap-6 mb-14">
           <div>
             <p className="font-display text-accent uppercase tracking-[0.3em] text-sm mb-3">
@@ -491,7 +491,7 @@ export default function Index() {
                   <img
                     src={m.img}
                     alt={m.name}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="w-full h-full transition-transform duration-500 group-hover:scale-105 object-fill"
                   />
                 ) : (
                   <Icon
