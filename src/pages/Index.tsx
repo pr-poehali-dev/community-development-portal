@@ -362,10 +362,7 @@ export default function Index() {
                   <span className="font-display uppercase tracking-widest text-xs text-ochre">
                     {p.topic}
                   </span>
-                  <h4 className="font-serif-ed text-2xl leading-tight mt-2 mb-4">{p.title}</h4>
-                  <p className="text-sm text-background/50 flex items-center gap-2">
-                    <Icon name="MapPin" size={14} /> {p.place}
-                  </p>
+                  <h4 className="font-serif-ed text-2xl leading-tight mt-2">{p.title}</h4>
                 </div>
               ))}
             </div>
