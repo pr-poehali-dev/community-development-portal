@@ -483,7 +483,7 @@ export default function Index() {
           {[
             { name: 'Тоут «Думай шире»', price: '1 200 ₽', icon: 'ShoppingBag', img: null },
             { name: 'Худи комьюнити', price: '3 900 ₽', icon: 'Shirt', img: 'https://cdn.poehali.dev/projects/d6d9ffc9-0672-41f4-a545-14576978093a/bucket/2a775a32-b4f2-4559-8cd0-3e959ad5b17c.png' },
-            { name: 'Блокнот лектора', price: '650 ₽', icon: 'Notebook', img: null },
+            { name: 'Блокнот лектора', price: '650 ₽', icon: 'Notebook', img: 'https://cdn.poehali.dev/projects/d6d9ffc9-0672-41f4-a545-14576978093a/bucket/a5f17f40-221b-42fd-a289-69af8f177bf3.jpg' },
           ].map((m) => (
             <div key={m.name} className="group">
               <div className="aspect-square bg-secondary flex items-center justify-center mb-4 overflow-hidden grain relative">
