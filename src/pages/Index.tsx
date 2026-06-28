@@ -251,7 +251,7 @@ export default function Index() {
               <img
                 src="https://cdn.poehali.dev/projects/d6d9ffc9-0672-41f4-a545-14576978093a/bucket/8fe93dbf-165e-47b6-a6f9-0669cbde5ceb.png"
                 alt="смотрю в книгу — не вижу фигу"
-                className="w-64 md:w-80 opacity-90"
+                className="w-64 md:w-80 opacity-90 px-[47px] py-[54px] my-[70px] object-contain rounded-0 mx-[13px]"
               />
             </div>
           </div>
