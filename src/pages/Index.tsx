@@ -503,18 +503,18 @@ export default function Index() {
                 Оставьте почту — и узнаете о новых лекциях первыми.
               </p>
             </div>
-            <div className="md:col-span-6 flex flex-col justify-end gap-8">
+            <div className="md:col-span-6 flex flex-col justify-end gap-6">
               <form onSubmit={(e) => e.preventDefault()} className="flex flex-col sm:flex-row gap-3">
                 <Input
                   type="email"
                   placeholder="Ваша почта"
-                  className="bg-transparent border-background/30 text-background placeholder:text-background/40 rounded-none h-10 text-sm"
+                  className="bg-transparent border-0 border-b border-background/30 text-background placeholder:text-background/40 rounded-none h-10 text-sm focus-visible:ring-0 focus-visible:border-background/60"
                 />
-                <Button className="bg-ochre hover:bg-ochre/90 text-ink font-display uppercase tracking-widest rounded-none h-12 px-8">
+                <Button className="bg-ochre hover:bg-ochre/90 text-ink font-display uppercase tracking-widest rounded-none h-10 px-8">
                   Подписаться
                 </Button>
               </form>
-              <div className="flex flex-wrap gap-6">
+              <div className="flex justify-center gap-8">
                 {[
                   { icon: 'Send', label: 'Telegram' },
                   { icon: 'Mail', label: 'Почта' },
