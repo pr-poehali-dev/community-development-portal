@@ -160,11 +160,11 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden selection:bg-accent selection:text-accent-foreground">
       {/* NAV */}
-      <header className="fixed top-0 inset-x-0 z-50 mix-blend-difference">
+      <header className="fixed top-0 inset-x-0 z-50">
         <div className="container flex items-center justify-between py-5">
           <button
             onClick={() => scrollTo('top')}
-            className="font-display text-xl tracking-[0.2em] text-white uppercase"
+            className="font-display text-xl tracking-[0.2em] uppercase" style={{ color: '#1b1b1b' }}
           >
 Лик<span className="text-ochre">·</span>Без
           </button>
@@ -173,7 +173,7 @@ export default function Index() {
               <button
                 key={n.id}
                 onClick={() => scrollTo(n.id)}
-                className="font-display text-sm uppercase tracking-widest text-white link-underline"
+                className="font-display text-sm uppercase tracking-widest link-underline" style={{ color: '#1b1b1b' }}
               >
                 {n.label}
               </button>
