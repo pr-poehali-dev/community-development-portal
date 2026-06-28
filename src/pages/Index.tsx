@@ -423,7 +423,7 @@ export default function Index() {
             <p className="font-display uppercase tracking-[0.3em] text-sm mb-4 opacity-80">
               Стать лектором
             </p>
-            <h2 className="font-display uppercase text-4xl md:text-6xl leading-none mb-6 text-balance">
+            <h2 className="font-display uppercase text-3xl md:text-5xl leading-none mb-6 text-balance">
               У вас есть тема,
               <br />о которой хочется
               <br />рассказать миру?
@@ -496,7 +496,7 @@ export default function Index() {
         <div className="container relative z-10">
           <div className="grid md:grid-cols-12 gap-12 mb-20">
             <div className="md:col-span-6">
-              <h2 className="font-display uppercase text-5xl md:text-7xl leading-[0.9] mb-6">
+              <h2 className="font-display uppercase text-4xl md:text-6xl leading-[0.9] mb-6">
                 Присоеди<span className="text-ochre">няйтесь</span>
               </h2>
               <p className="font-serif-ed text-2xl text-background/70 max-w-md">
