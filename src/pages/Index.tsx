@@ -212,7 +212,7 @@ export default function Index() {
             Свободное комьюнити · Санкт-Петербург
           </p>
           <h1
-            className="font-display text-background uppercase leading-[0.92] text-[15vw] md:text-[9vw] mb-8 text-balance animate-fade-up"
+            className="font-display text-white uppercase leading-[0.92] text-[15vw] md:text-[9vw] mb-8 text-balance animate-fade-up"
             style={{ animationDelay: '0.1s', fontWeight: 600 }}
           >
             Учимся
@@ -223,7 +223,7 @@ export default function Index() {
             </span>
           </h1>
           <p
-            className="font-serif-ed text-background/90 text-2xl md:text-3xl max-w-2xl leading-snug mb-10 animate-fade-up"
+            className="font-serif-ed text-white text-2xl md:text-3xl max-w-2xl leading-snug mb-10 animate-fade-up"
             style={{ animationDelay: '0.2s' }}
           >
             Лекции о кино, истории государств, искусстве и человеке — в самых
