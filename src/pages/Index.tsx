@@ -161,7 +161,7 @@ export default function Index() {
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden selection:bg-accent selection:text-accent-foreground">
       {/* NAV */}
       <header className="fixed top-0 inset-x-0 z-50">
-        <div className="container flex items-center justify-between py-5">
+        <div className="container flex items-center justify-between rounded-full px-[134px] my-0 mx-0 bg-[#f9f6f654] py-0">
           <button
             onClick={() => scrollTo('top')}
             className="font-display text-xl tracking-[0.2em] uppercase" style={{ color: '#1b1b1b' }}
@@ -262,7 +262,7 @@ export default function Index() {
       </div>
 
       {/* MISSION */}
-      <section id="mission" className="container py-24 md:py-32">
+      <section id="mission" className="container py-24 md:py-32 bg-[#592d2d75]">
         <div className="grid md:grid-cols-12 gap-10 items-start">
           <div className="md:col-span-4">
             <p className="font-display text-accent uppercase tracking-[0.3em] text-sm mb-4">
