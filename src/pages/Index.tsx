@@ -278,8 +278,7 @@ export default function Index() {
             <p className="font-serif-ed text-2xl md:text-3xl leading-relaxed mb-12 text-balance">
               Мы собираем людей, которым тесно в одной профессии и одной теме. Здесь
               историк слушает про кино, программист — про античную философию, а художник
-              открывает для себя экономику. Всестороннее развитие — это не хобби, а способ
-              жить с открытыми глазами.
+              открывает для себя экономику.
             </p>
             <div className="grid sm:grid-cols-3 gap-8">
               {VALUES.map((v) => (
