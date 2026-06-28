@@ -249,7 +249,7 @@ export default function Index() {
             </div>
             <div className="animate-fade-up flex-shrink-0" style={{ animationDelay: '0.35s' }}>
               <img
-                src="https://cdn.poehali.dev/projects/d6d9ffc9-0672-41f4-a545-14576978093a/bucket/cc2b0e6c-1e8b-487d-b992-149392c8c22d.png"
+                src="https://cdn.poehali.dev/projects/d6d9ffc9-0672-41f4-a545-14576978093a/bucket/8fe93dbf-165e-47b6-a6f9-0669cbde5ceb.png"
                 alt="смотрю в книгу — не вижу фигу"
                 className="w-64 md:w-80 opacity-90"
               />
