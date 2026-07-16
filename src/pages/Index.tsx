@@ -273,7 +273,7 @@ export default function Index() {
       </div>
 
       {/* MISSION */}
-      <section id="mission" className="container md:py-32 bg-[#592d2d75] py-[46px]">
+      <section id="mission" className="container md:py-32 rounded-none py-[121px] bg-[#f59f0acf]">
         <div className="grid md:grid-cols-12 gap-10 items-start">
           <div className="md:col-span-4">
             <p className="font-display text-accent uppercase tracking-[0.3em] text-sm mb-4">
